@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
 
     void addData(){
         mahasiswaArrayList = new ArrayList<>();
-        mahasiswaArrayList.add(new Task("Dimas Maulana", "1414370309", "123456789"));
-        mahasiswaArrayList.add(new Task("Fadly Yonk", "1214234560", "987654321"));
-        mahasiswaArrayList.add(new Task("Ariyandi Nugraha", "1214230345", "987648765"));
-        mahasiswaArrayList.add(new Task("Aham Siswana", "1214378098", "098758124"));
+        mahasiswaArrayList.add(new Task("Dimas Maulana", "1414370309"));
+        mahasiswaArrayList.add(new Task("Fadly Yonk", "1214234560"));
+        mahasiswaArrayList.add(new Task("Ariyandi Nugraha", "1214230345"));
+        mahasiswaArrayList.add(new Task("Aham Siswana", "1214378098"));
     }
 }

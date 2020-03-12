@@ -2,38 +2,27 @@ package com.uprit.moneymanager;
 
 public class Task {
 
-    private String nama;
-    private String npm;
-    private String nohp;
+    private String title;
+    private String price;
 
-    public Task(String nama, String npm, String nohp) {
-        this.nama = nama;
-        this.npm = npm;
-        this.nohp = nohp;
-
+    public Task(String title, String price) {
+        this.title = title;
+        this.price = price;
     }
 
-    public String getNama() {
-        return nama;
+    public String getTitle() {
+        return title;
     }
 
-    public void setNama(String nama) {
-        this.nama = nama;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public String getNpm() {
-        return npm;
+    public String getPrice() {
+        return price;
     }
 
-    public void setNpm(String npm) {
-        this.npm = npm;
-    }
-
-    public String getNohp() {
-        return nohp;
-    }
-
-    public void setNohp(String nohp) {
-        this.nohp = nohp;
+    public void setPrice(String price) {
+        this.price = price;
     }
 }
