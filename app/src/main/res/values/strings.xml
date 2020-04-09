@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Money Manager</string>
     <string name="action_settings">Settings</string>
+    <string-array name="menu_arrays">
+        <item>Pemasukan</item>
+        <item>Pengeluaran</item>
+    </string-array>
 </resources>
